@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-   "bin": {
+  "bin": {
     "clean": "./bin/clean.js"
   },
   "repository": {
@@ -20,5 +20,9 @@
     "url": "https://github.com/adarsh-sng/cleanr/issues"
   },
   "homepage": "https://github.com/adarsh-sng/cleanr#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@inquirer/prompts": "^7.6.0",
+    "chalk": "^5.4.1"
+  }
 }
